@@ -14,18 +14,14 @@ This project integrates Hugging Face AI capabilities into a Smart Agriculture Sy
 
 ## 📸 Output Screenshots
 
-> *Please place your screenshots in an `assets` folder within your project directory and link them below.*
-
 | **Home & Dashboard** | **Product Marketplace** |
 |:---:|:---:|
-| <img width="1898" height="868" alt="image" src="https://github.com/user-attachments/assets/d29b1c5d-3a62-4cdd-8c2d-40068d828d94" /> | <img width="1896" height="868" alt="image" src="https://github.com/user-attachments/assets/9e7eaf2f-768d-41c7-bd24-85e1602e069a" />
- |
+| <img src="https://github.com/user-attachments/assets/d29b1c5d-3a62-4cdd-8c2d-40068d828d94" width="100%" alt="Home & Dashboard" /> | <img src="https://github.com/user-attachments/assets/9e7eaf2f-768d-41c7-bd24-85e1602e069a" width="100%" alt="Product Marketplace" /> |
 | *Central hub for products and tools* | *Fresh produce listings with filters* |
 
 | **Waste Exchange** | **AI Analysis Tool** |
 |:---:|:---:|
-| <img width="1900" height="867" alt="image" src="https://github.com/user-attachments/assets/8129397c-f9c2-4ff9-8d50-9e061a72766a" /> | <img width="1888" height="863" alt="image" src="https://github.com/user-attachments/assets/775d5391-c541-46cc-9bb6-008c05610527" />
- |
+| <img src="https://github.com/user-attachments/assets/8129397c-f9c2-4ff9-8d50-9e061a72766a" width="100%" alt="Waste Exchange" /> | <img src="https://github.com/user-attachments/assets/775d5391-c541-46cc-9bb6-008c05610527" width="100%" alt="AI Analysis Tool" /> |
 | *Trading platform for agri-waste* | *Disease diagnosis and crop advice* |
 
 ## Prerequisites
