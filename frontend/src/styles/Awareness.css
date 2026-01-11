@@ -1,0 +1,98 @@
+/* Awareness Page Styles */
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.waste-card {
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.waste-card .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.waste-card .card-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 0.75rem 1.25rem;
+}
+
+.placeholder-image {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 10px 10px 0 0;
+}
+
+.tab-content {
+  padding: 20px 0;
+}
+
+/* Badge styles */
+.badge {
+  font-size: 0.8rem;
+  padding: 0.4rem 0.6rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Card styles */
+.card {
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+/* Modal styles */
+.modal-body {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Tab styles */
+.nav-tabs .nav-link {
+  color: #495057;
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* Timeline styles for guidelines */
+.timeline-item {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #28a745;
+}
+
+.timeline-item:after {
+  content: '';
+  position: absolute;
+  left: -6px;
+  top: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #28a745;
+}

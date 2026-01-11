@@ -1,0 +1,8 @@
+{
+    "postman.settings.dotenv-detection-notification-visibility": false,
+    "zencoder.enableRepoIndexing": true,
+    "json.schemas": [],
+    "json.validate.enable": false,
+    "json.schemaDownload.enable": false,
+    "git.ignoreLimitWarning": true
+}

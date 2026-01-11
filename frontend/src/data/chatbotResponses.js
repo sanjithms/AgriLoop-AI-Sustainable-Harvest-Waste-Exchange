@@ -1,0 +1,18 @@
+// Predefined responses for the ChatbotAI component
+const chatbotResponses = {
+  'rice straw': "Rice straw can be converted into biochar, used for mushroom cultivation, or processed into paper products. It has a market value of ₹1,000-1,500 per ton raw, or up to ₹15,000 per ton when processed for specialty applications.",
+  'coconut shells': "Coconut shells are valuable for making activated carbon, handicrafts, and as biomass fuel. They can fetch ₹3,000-5,000 per ton raw, and up to ₹80,000 per ton when processed into activated carbon.",
+  'sugarcane bagasse': "Sugarcane bagasse can be used for paper production, as animal feed, or to generate electricity. It sells for ₹1,200-2,000 per ton raw, and up to ₹20,000 per ton when processed into fiberboard or packaging materials.",
+  'banana peels': "Banana peels can be composted, used for biogas production, or processed to extract bioactive compounds for cosmetics. They have a market value of ₹500-1,000 per ton raw, or up to ₹25,000 per ton for extracted compounds.",
+  'corn cobs': "Corn cobs can be used as animal bedding, for mushroom cultivation, or processed into industrial abrasives. They sell for ₹800-1,500 per ton raw, and up to ₹60,000 per ton for specialty applications like industrial cleaning grit.",
+  'almond hulls': "Almond hulls are valuable as livestock feed, for extracting bioactive compounds, or for producing biochar. They fetch ₹2,000-3,500 per ton raw, and up to ₹35,000 per ton for extracted compounds.",
+  'composting': "Composting is an excellent way to recycle agricultural waste. It reduces landfill waste, creates valuable soil amendments, and can be done at various scales. For best results, maintain a carbon-to-nitrogen ratio of 30:1 and keep moisture at 40-60%.",
+  'biogas': "Biogas production from agricultural waste can generate renewable energy while reducing methane emissions. A typical small-scale biogas plant (4-6 cubic meters) can produce enough gas for 4-5 hours of cooking daily and costs around ₹20,000-40,000 to set up.",
+  'vermicomposting': "Vermicomposting uses earthworms to create high-quality compost. It's faster than traditional composting and produces worm castings that sell for ₹15-25 per kg. A 1,000 sq ft vermicomposting unit can process about 1 ton of waste monthly.",
+  'waste to energy': "Agricultural waste-to-energy technologies include direct combustion, gasification, and anaerobic digestion. A 1 MW biomass power plant requires about 10,000 tons of agricultural residue annually and can generate revenue of ₹70-80 lakhs per year.",
+  'market prices': "Agricultural waste market prices vary by type and processing level. Raw materials typically fetch ₹1,000-5,000 per ton, while processed materials can reach ₹10,000-80,000 per ton depending on the application. Would you like information about a specific waste type?",
+  'government schemes': "Several government schemes support agricultural waste management in India, including the Promotion of Agricultural Mechanization for In-Situ Management of Crop Residue, National Biogas and Manure Management Programme, and subsidies under the National Mission for Sustainable Agriculture.",
+  'help': "I can help you with information about agricultural waste management, including composting, biogas production, market prices, government schemes, and specific waste types like rice straw, coconut shells, and sugarcane bagasse. Just ask me what you'd like to know!"
+};
+
+export default chatbotResponses;

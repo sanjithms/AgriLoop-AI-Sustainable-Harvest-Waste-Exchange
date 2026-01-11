@@ -1,0 +1,8 @@
+node_modules
+node_modules
+tar
+backend/.env.example
+backend/.env
+frontend/.env
+.env
+node_modules/

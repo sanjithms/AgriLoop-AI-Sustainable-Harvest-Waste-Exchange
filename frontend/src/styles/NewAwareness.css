@@ -1,0 +1,225 @@
+/* New Awareness Page Styles */
+
+.awareness-hero {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 3rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.awareness-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  transform: translate(30%, -30%);
+}
+
+.awareness-section {
+  margin-bottom: 3rem;
+}
+
+.awareness-section-title {
+  color: #28a745;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 0.75rem;
+}
+
+.awareness-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background-color: #28a745;
+}
+
+.awareness-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.awareness-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.awareness-icon {
+  font-size: 3rem;
+  color: #28a745;
+  margin-bottom: 1.25rem;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.awareness-card:hover .awareness-icon {
+  transform: scale(1.1);
+}
+
+.awareness-topic-title {
+  color: #343a40;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.awareness-card:hover .awareness-topic-title {
+  color: #28a745;
+}
+
+.awareness-list-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  position: relative;
+  padding-left: 1.75rem;
+  transition: all 0.2s ease;
+}
+
+.awareness-list-item:hover {
+  padding-left: 2rem;
+  color: #28a745;
+}
+
+.awareness-list-item::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.awareness-list-item:last-child {
+  border-bottom: none;
+}
+
+.awareness-cta {
+  background: linear-gradient(135deg, #495057 0%, #343a40 100%);
+  color: white;
+  border-radius: 15px;
+  padding: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.awareness-cta::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+  border-radius: 50%;
+  transform: translate(-30%, 30%);
+}
+
+.awareness-cta-title {
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+}
+
+.awareness-ai-button {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.awareness-ai-button:hover {
+  background-color: #198754;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+/* Accordion styling */
+.accordion-button:not(.collapsed) {
+  background-color: rgba(40, 167, 69, 0.1);
+  color: #28a745;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25);
+  border-color: #28a745;
+}
+
+.accordion-item {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Alert styling */
+.alert-success {
+  border-left: 5px solid #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+  color: #155724;
+}
+
+/* Badge styling */
+.badge {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .awareness-hero {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .awareness-hero {
+    padding: 2rem;
+  }
+  
+  .awareness-icon {
+    font-size: 2.5rem;
+  }
+  
+  .awareness-cta {
+    padding: 2rem;
+  }
+  
+  .awareness-cta-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .awareness-hero {
+    padding: 1.5rem;
+  }
+  
+  .awareness-icon {
+    font-size: 2rem;
+  }
+  
+  .awareness-section-title {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,49 @@
+.otp-input {
+  letter-spacing: 0.5em;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Animated background for the card */
+.card {
+  background: linear-gradient(120deg, #ffffff, #f8f9fa);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Pulse animation for resend button when countdown is active */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+button:disabled {
+  animation: pulse 2s infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .otp-input {
+    font-size: 1.2rem;
+  }
+}

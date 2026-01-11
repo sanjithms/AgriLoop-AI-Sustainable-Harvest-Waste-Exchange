@@ -1,0 +1,78 @@
+/* Styles for the AI Chatbot Page */
+
+.ai-chatbot-page {
+  padding: 2rem 0;
+}
+
+.ai-chatbot-card {
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.ai-chatbot-header {
+  background: linear-gradient(135deg, #27ae60, #2ecc71);
+  padding: 1.5rem;
+}
+
+.ai-chatbot-title {
+  font-weight: 700;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ai-chatbot-title i {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.ai-chatbot-lead {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.ai-chatbot-tip {
+  background-color: rgba(39, 174, 96, 0.1);
+  border-left: 4px solid #27ae60;
+  border-radius: 0.25rem;
+}
+
+.ai-chatbot-section {
+  margin-top: 2rem;
+}
+
+.ai-chatbot-section-title {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.ai-chatbot-list-item {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.ai-chatbot-list-item:hover {
+  background-color: rgba(39, 174, 96, 0.05);
+}
+
+.ai-chatbot-list-item i {
+  color: #27ae60;
+  margin-right: 0.75rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .ai-chatbot-lead {
+    font-size: 1rem;
+  }
+  
+  .ai-chatbot-header {
+    padding: 1.25rem;
+  }
+}

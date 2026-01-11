@@ -1,0 +1,146 @@
+.ai-advisor-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.topics-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.topic-button {
+  background: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.topic-button:hover {
+  background-color: #f5f5f5;
+  color: #27ae60;
+  border-color: #d0d0d0;
+}
+
+.topic-button.active {
+  background-color: #27ae60;
+  color: white;
+  border-color: #27ae60;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.sample-questions {
+  margin-top: 15px;
+}
+
+.sample-questions-label {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.sample-questions-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.result-container {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+}
+
+.result-header {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.result-header h4 {
+  margin-bottom: 10px;
+  color: #27ae60;
+}
+
+.result-query {
+  font-style: italic;
+  color: #666;
+  font-size: 15px;
+}
+
+.result-content {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.result-content p {
+  margin-bottom: 15px;
+}
+
+.result-sources {
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.result-sources h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.result-sources ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.result-sources li {
+  margin-bottom: 5px;
+}
+
+.result-sources a {
+  color: #27ae60;
+  text-decoration: none;
+}
+
+.result-sources a:hover {
+  text-decoration: underline;
+}
+
+.result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .ai-advisor-container {
+    padding: 15px;
+  }
+  
+  .topics-container {
+    gap: 8px;
+  }
+  
+  .topic-button {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}

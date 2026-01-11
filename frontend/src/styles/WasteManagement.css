@@ -1,0 +1,149 @@
+.waste-management-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.management-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/1600x900/?compost,farm');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.management-header .overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.management-header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.management-header p {
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+.topic-list {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.topic-list .list-group-item {
+  border-left: none;
+  border-right: none;
+  padding: 15px 20px;
+  transition: all 0.3s;
+}
+
+.topic-list .list-group-item:first-child {
+  border-top: none;
+}
+
+.topic-list .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.topic-list .list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+.topic-list .list-group-item.active {
+  background-color: #4CAF50;
+  border-color: #4CAF50;
+}
+
+.topic-details {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.topic-details h2 {
+  color: #2E7D32;
+  margin-bottom: 20px;
+}
+
+.topic-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.methods-list li, .benefits-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.benefits-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.select-topic-prompt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.waste-stats {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.stat-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-icon {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.stat-card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #2E7D32;
+}
+
+.call-to-action {
+  background: linear-gradient(135deg, #43a047 0%, #2e7d32 100%);
+  color: white;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  .topic-list {
+    margin-bottom: 30px;
+  }
+  
+  .management-header h1 {
+    font-size: 2rem;
+  }
+  
+  .management-header p {
+    font-size: 1rem;
+  }
+}

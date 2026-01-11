@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Package",
+  "description": "NPM package.json file",
+  "type": "object",
+  "required": ["name", "version"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the package."
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the package."
+    },
+    "description": {
+      "type": "string",
+      "description": "Description of the package."
+    },
+    "main": {
+      "type": "string",
+      "description": "The main entry point of the package."
+    },
+    "scripts": {
+      "type": "object",
+      "description": "Scripts that can be run with npm run.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "dependencies": {
+      "type": "object",
+      "description": "Dependencies of the package.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "devDependencies": {
+      "type": "object",
+      "description": "Development dependencies of the package.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "keywords": {
+      "type": "array",
+      "description": "Keywords related to the package.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "author": {
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "Author of the package."
+        },
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "license": {
+      "type": "string",
+      "description": "License of the package."
+    },
+    "engines": {
+      "type": "object",
+      "description": "Engines that this package runs on.",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  }
+}
