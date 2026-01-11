@@ -1,5 +1,6 @@
-# Smart Agri System with Hugging Face AI Integration
+# AgriLoop AI: Smart Agricultural Product & Waste Management System 🌾♻️
 
+**AgriLoop AI** is a comprehensive full-stack web platform designed to bridge the gap between farmers, buyers, and waste recyclers. By integrating **Hugging Face AI**, the system creates a sustainable ecosystem that facilitates the sale of fresh produce, transforms agricultural waste into valuable resources, and provides intelligent farming advice.
 This project integrates Hugging Face AI capabilities into a Smart Agriculture System to provide intelligent features like crop recommendations, disease diagnosis, and agricultural question answering.
 
 ## Features
@@ -9,6 +10,23 @@ This project integrates Hugging Face AI capabilities into a Smart Agriculture Sy
 - **Agricultural Question Answering**: Get answers to farming and agricultural questions
 - **Market Sentiment Analysis**: Analyze agricultural market reports for sentiment
 - **News Summarization**: Summarize agricultural news articles
+- ---
+
+## 📸 Output Screenshots
+
+> *Please place your screenshots in an `assets` folder within your project directory and link them below.*
+
+| **Home & Dashboard** | **Product Marketplace** |
+|:---:|:---:|
+| <img width="1898" height="868" alt="image" src="https://github.com/user-attachments/assets/d29b1c5d-3a62-4cdd-8c2d-40068d828d94" /> | <img width="1896" height="868" alt="image" src="https://github.com/user-attachments/assets/9e7eaf2f-768d-41c7-bd24-85e1602e069a" />
+ |
+| *Central hub for products and tools* | *Fresh produce listings with filters* |
+
+| **Waste Exchange** | **AI Analysis Tool** |
+|:---:|:---:|
+| <img width="1900" height="867" alt="image" src="https://github.com/user-attachments/assets/8129397c-f9c2-4ff9-8d50-9e061a72766a" /> | <img width="1888" height="863" alt="image" src="https://github.com/user-attachments/assets/775d5391-c541-46cc-9bb6-008c05610527" />
+ |
+| *Trading platform for agri-waste* | *Disease diagnosis and crop advice* |
 
 ## Prerequisites
 
